@@ -1,20 +1,15 @@
-# Are we related
+# Longest Consecutive Set
 
-You will be given an integer called number and an array called possibleFamilyMembers
-your jobs is to find the number's family members. 
+You will be given an array of numbers, search the array and return the longest set of consecutive numbers
 
-A family member is any value that's with in 1 of any other number in the family.
 ## Example Output
 
 ```
-So for example if the number = 4, and the possibleFamilyMembers is [1,4,3,5]
-The actualFamilyMembers would be [3,4,5]
-3 is 1 away from 4
-4 is equal to 4
-4 is 1 away from 5
- while
-1 is not included because the closest releation to 1 is 3 and that's 2 away.
+example input - {1,3,2,10,6,5,7,8}
+return the String "Longest Set: {5 6 7 8}"
 ```
+
+Even though 1,2,3 would the first consecutive set 5,6,7,8 is longer
 
 ## Submission
 Push your changes to GitHub
